@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="Browser Memory Utility">
+		<meta name="author" content="Assembled Realities">
+		<!--<link rel="icon" href="../../favicon.ico">-->
+		
+		<title>BMU - Browser Memory Utility by Assembled Realities</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="ui/BMU.ui.css">
+	</head>
+	<body>
+		<div class="w3-container">
+			<div class="w3-xxlarge">
+				<span class="fa-layers fa-fw">
+					<i class="fas fa-tablet"></i>
+    				<span class="fa-layers-text fa-inverse" data-fa-transform="shrink-10.5 up-1 rotate--30" >BMU</span>
+  				</span>
+  				Browser Memory Utility
+  			</div>
+			<div id="BMUvue">{{ version() }}
+			</div>
+			<footer class="w3-center w3-small">
+				BMU UI Built using <a href="https://www.w3schools.com/w3css/" target="_blank">W3.CSS</a>, <a href="https://vuejs.org/" target="_blank">Vue.js</a>, and <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> | 
+				Released under the <a href="https://github.com/assembled-realities/BMU/blob/master/LICENSE" target="_blank">MIT License</a>
+				Copyright &copy; 2018 <a href="https://assembled-realities.github.io" target="_blank">Assembled Realities</a>
+			</footer>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+		<script src="src/BMU.js"></script>
+		<script src="ui/BMU.ui.js"></script>
+	</body>
+</html>
