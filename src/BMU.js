@@ -71,6 +71,7 @@ var BMU = BMU || (function(){
 				document.execCommand("copy");
 				document.body.removeChild(BMUinput);
 			if(!silent) alert("Your BMU is in your clipboard. Don't forget to paste it somewhere!");
+			//APP.deleteAll();
 		},
 		save:function(k){ if(oV.hasOwnProperty(k)){
 			if(!noLS){
